@@ -1,0 +1,216 @@
+.header {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.back {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,244,255,1) 56%, rgba(140,140,255,1) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Rubik', Verdana, sans-serif;
+	min-height:100%;
+	max-height:100%;
+}
+.leftblock {
+	font-family: 'Rubik', Verdana, sans-serif; 
+	width: 96%;
+	height: 15%;
+	margin-left: 2%;
+
+	clear: right;
+}
+.inline { 
+	border: 2px solid #fff;
+	width: 98%;
+	height: 20%;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+	float: left;
+	margin-bottom: 10px;
+}
+.pic {
+	border: 2px solid #fff;
+	width: 13%;
+	height: 93%;
+	margin-top: 0.25%;
+	margin-left: 0.25%;
+	float: left;
+	clear: right;
+}
+.data {
+	float: left;
+	clear: right;
+	margin-top: 0.25%;
+	margin-left: 2%;
+	width: 23.5%;
+	height: 93%;
+}
+.sep {
+	background: #fff;
+	float: left;
+	clear: right;
+	width: 75%;
+	margin-left: 3%;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.sep_data {
+	border: 2px solid #DCDCDC;
+	width: 97%;
+	height: 20%;
+	margin-top: 1%;
+	background: #DCDCDC;
+	color: 	#404040;
+}
+.description {
+	height: 93%;
+	width: 45%;
+	margin-top: 0.5%;
+	float: left;
+	clear: right;
+	margin-left: 2%;
+	background: #DCDCDC;
+	color: 	#404040;
+}
+.button_cart {
+	float: left;
+	clear: right;
+	margin-top: 2.5%;
+	margin-left: 3%;
+}
+.cart {
+	float: left;
+	clear: right;
+	width: 8%;
+	font-size: 25px;
+	color: black;
+	height: 93%;
+	text-align: center;
+	background: #DCDCDC;
+	margin-left: 1%;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 20px;
+	margin-top: 0.25%;
+}
+.name {
+	text-align: center;
+	float: left;
+	clear: right;
+	font-size: 40px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 15%;
+}
+.leftblock h1 {
+	color: 	#0e435f;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.line {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	clear: right;
+	
+}
+body{
+	color: 	#0e435f;
+	font-family: 'Rubik', Verdana, sans-serif;
+	font-size: 100%;
+	margin-left: 5%;
+}
+.filter2 {
+	color: 	#0e435f;
+	font-family: 'Rubik', Verdana, sans-serif;
+	font-size: 100%;
+	margin-left: 5%;
+	float: left;
+	clear: right;
+	width: 70%;
+	height: 20%;
+	
+}
+.filter2 select{
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	font-size: 100%;
+}
+.word {
+	color: #0e435f;
+	float: left;
+	clear: right;
+	font-weight: bold;
+	font-size: 120%;
+	width: 30%;
+	height: 85%;
+	margin-top: 7px;
+}
+.filter2 button {
+	margin-left: 30%;
+	margin-top: 5%;
+}
+.search {
+	border: 2px solid #fff;
+	font-family: 'Rubik', Verdana, sans-serif;
+	width: 50%;
+	height: 93%;
+	float: left;
+	clear: right;
+	margin-left: 1%;
+	border-radius: 20px;
+}
+.search input {
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 1%;
+	background: #DCDCDC;
+	margin-right: 5%;
+	height: 50%;
+}
+.search p{
+	color: white;
+	font-family: 'Rubik', Verdana, sans-serif;
+	float: left;
+	clear: right;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 1%;
+}
+.search button{
+	width: 10%;
+	height: 50%;
+
+}
+.price {
+	width: 10%;
+	height: 57%;
+	float: left;
+	clear: right;
+	margin-left: 1.5%;
+}
+.price p {
+	color: white;
+	font-size: 120%;
+	margin-left: 29%;
+	font-family: 'Montserrat', sans-serif;
+}
+.price2 {
+	width: 95%;
+	height: 30%;
+	margin-left: 5%;
+	background: #DCDCDC;
+	color: 	#404040;
+}
+table {
+    
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid rgb(0, 0, 0); /* Прячем рамку вокруг таблицы */
+   }
+   td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid rgb(0, 0, 0); /* Параметры рамки */
+    text-align: left; /* Выравнивание по левому краю */
+   }
